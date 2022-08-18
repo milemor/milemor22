@@ -32,3 +32,8 @@
 	path = milemor/sit_web
 	url = git@github.com:milemor/sit_web.git
 	branch = 13.0
+
+[submodule "milemor/sit_commission"]
+	path = milemor/sit_commission
+	url = git@github.com:milemor/sit_commission.git
+	branch = 13.0
