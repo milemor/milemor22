@@ -1,13 +1,3 @@
-[submodule "OCA/commission"]
-	path = OCA/commission
-	url = git@github.com:OCA/commission.git
-	branch = 13.0
-
-[submodule "OCA/web"]
-	path = OCA/web
-	url = git@github.com:OCA/web.git
-	branch = 13.0
-
 [submodule "ingadhoc/account-financial-tools"]
 	path = ingadhoc/account-financial-tools
 	url = git@github.com:ingadhoc/account-financial-tools.git
