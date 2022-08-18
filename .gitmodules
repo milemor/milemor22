@@ -22,3 +22,8 @@
 	path = milemor/sit_account-payment
 	url = git@github.com:milemor/sit_account-payment.git
 	branch = 13.0
+
+[submodule "milemor/sit_odoo-argentina"]
+	path = milemor/sit_odoo-argentina
+	url = git@github.com:milemor/sit_odoo-argentina.git
+	branch = 13.0
