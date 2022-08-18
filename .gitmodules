@@ -7,3 +7,8 @@
 	path = milemor/sit_commission
 	url = git@github.com:milemor/sit_commission.git
 	branch = 13.0
+
+[submodule "milemor/sit_account-financial-tools"]
+	path = milemor/sit_account-financial-tools
+	url = git@github.com:milemor/sit_account-financial-tools.git
+	branch = 13.0
