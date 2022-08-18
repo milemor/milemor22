@@ -32,3 +32,8 @@
 	path = milemor/sit_odoo-argentina-ee
 	url = git@github.com:milemor/sit_odoo-argentina-ee.git
 	branch = 13.0
+
+[submodule "milemor/sit_website"]
+	path = milemor/sit_website
+	url = git@github.com:milemor/sit_website.git
+	branch = 13.0
