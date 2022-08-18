@@ -12,3 +12,8 @@
 	path = milemor/sit_account-financial-tools
 	url = git@github.com:milemor/sit_account-financial-tools.git
 	branch = 13.0
+
+[submodule "milemor/sit_account-invoicing"]
+	path = milemor/sit_account-invoicing
+	url = git@github.com:milemor/sit_account-invoicing.git
+	branch = 13.0
