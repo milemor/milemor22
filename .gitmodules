@@ -27,3 +27,8 @@
 	path = ingadhoc/website
 	url = git@github.com:ingadhoc/website.git
 	branch = 13.0
+
+[submodule "milemor/sit_web"]
+	path = milemor/sit_web
+	url = git@github.com:milemor/sit_web.git
+	branch = 13.0
