@@ -37,3 +37,8 @@
 	path = milemor/sit_website
 	url = git@github.com:milemor/sit_website.git
 	branch = 13.0
+
+[submodule "OCA/mis-builder"]
+	path = OCA/mis-builder
+	url = git@github.com:OCA/mis-builder.git
+	branch = 13.0
