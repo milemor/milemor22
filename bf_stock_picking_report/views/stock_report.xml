@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <report
+        string="Delivery Slip (Description Mod)"
+        id="action_report_delivery_description"
+        model="stock.picking"
+        report_type="qweb-pdf"
+        name="bf_stock_picking_report.report_delivery_description"
+        file="bf_stock_picking_report.report_delivery_description"
+        print_report_name="'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+    />
+</odoo>
