@@ -26,7 +26,7 @@
                             <div t-if="o.picking_type_id.code == 'outgoing' and o.carrier_id" class="col-auto">
                                 <strong>Transportista:</strong><br/>
                                 <span t-field="o.carrier_id"/><br/>
-                                <span t-field="o.carrier_id.website_description"/>
+                                <!-- <span t-field="o.carrier_id.website_description"/> -->
                             </div>
                             <div t-if="o.shipping_weight" class="col-auto">
                                 <strong>Weight:</strong>
@@ -110,8 +110,8 @@
                                 <t t-foreach="move.move_line_ids.sorted(key=lambda ml: ml.location_id.id)" t-as="ml">
                                     <tr>
                                         <td>
-                                            <!-- <span t-field="ml.product_id.display_name"/><br/> -->
-                                            <span t-field="ml.move_id.name"/><br/>                                                    
+                                            <span t-field="ml.product_id.display_name"/><br/>
+                                            <!-- <span t-field="ml.move_id.name"/><br/> -->                                                    
                                             <span t-field="ml.product_id.description_picking"/>
                                         </td>
                                         <td>
