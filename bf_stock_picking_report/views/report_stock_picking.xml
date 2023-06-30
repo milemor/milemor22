@@ -181,11 +181,11 @@
                         All products could not be reserved. Click on the "Check Availability" button to try to reserve products.
                     </p>
                     <p></p>
-                    <p><strong>Value of the merchandise:</strong> <strong><span t-field="o.amount_total" /></strong></p>
-                    
-                    <div style='position: fixed; bottom: -30px; left: 0; right: 0; text-align: center;'>
+                    <p><strong>Value of the merchandise:</strong> <strong><span t-field="o.amount_untaxed" /></strong></p>
+                    <p></p>
+                    <p>
                         <strong><p t-field="o.note"/></strong>
-                    </div>
+                    </p>
                 </div>
             </t>                                                  
         </t>
