@@ -26,7 +26,7 @@
                             <div t-if="o.picking_type_id.code == 'outgoing' and o.carrier_id" class="col-auto">
                                 <strong>Carrier:</strong><br/>
                                 <span t-field="o.carrier_id"/><br/>
-                                <!-- <span t-field="o.carrier_id.website_description"/> -->
+                                <span t-field="o.carrier_id.website_description"/>
                             </div>
                             <div t-if="o.shipping_weight" class="col-auto">
                                 <strong>Weight:</strong><br/>
