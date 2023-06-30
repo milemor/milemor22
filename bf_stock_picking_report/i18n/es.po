@@ -18,6 +18,11 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 
 #. module: bf_stock_picking_report
+#: model:ir.actions.report,name:bf_stock_picking_report.action_report_delivery_description
+msgid "Delivery Slip (Carrier)"
+msgstr "Vale de entrega (Transportista)"
+
+#. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Order:</strong>"
 msgstr "<strong>Orden:</strong>"
@@ -26,11 +31,6 @@ msgstr "<strong>Orden:</strong>"
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Product</strong>"
 msgstr "<strong>Producto</strong>"
-
-#. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_description
-msgid "Delivery Slip (Carrier)"
-msgstr "Vale de entrega (Transportista)"
 
 #. module: bf_stock_picking_report
 #: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
