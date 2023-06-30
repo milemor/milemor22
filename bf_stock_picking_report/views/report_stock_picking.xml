@@ -66,7 +66,7 @@
                             <p t-field="o.origin"/>
                         </div>
                         <div class="col-auto" name="div_state">
-                            <strong>Estado:</strong>
+                            <strong>Status:</strong>
                             <p t-field="o.state"/>
                         </div>
                         <div class="col-auto" name="div_sched_date">

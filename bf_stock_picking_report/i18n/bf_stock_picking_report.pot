@@ -14,6 +14,6 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_description
+#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
 msgid "Delivery Slip (Carrier)"
 msgstr ""
