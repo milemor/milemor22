@@ -52,7 +52,7 @@ msgstr ""
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Value of the merchandise</strong>"
+msgid "<strong>Value of the merchandise:</strong>"
 msgstr ""
 
 #. module: bf_stock_picking_report
