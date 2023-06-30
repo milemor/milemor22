@@ -183,7 +183,7 @@
                     <p></p>
                     <p><strong>Value of the merchandise:</strong> <strong><span t-field="o.amount_total" /></strong></p>
                     
-                    <div style="position:absolute; bottom:-50px;" >
+                    <div style="position:absolute; bottom:10px;" >
                         <strong><p t-field="o.note"/></strong>
                     </div>          
                 </div>
