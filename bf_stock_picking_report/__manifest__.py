@@ -17,6 +17,6 @@
     "data": [
         "views/report_stock_picking.xml",
         #"views/report_stockpicking_operations.xml",
-        "views/stock_report.xml",
+        "reports/stock_report.xml",
     ],
 }
