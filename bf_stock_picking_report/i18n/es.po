@@ -28,7 +28,7 @@ msgid "<strong>Product</strong>"
 msgstr "<strong>Producto</strong>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_description
 msgid "Delivery Slip (Carrier)"
 msgstr "Vale de entrega (Transportista)"
 
