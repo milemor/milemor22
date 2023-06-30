@@ -29,8 +29,7 @@
                                 <!-- <span t-field="o.carrier_id.website_description"/> -->
                             </div>
                             <div t-if="o.shipping_weight" class="col-auto">
-                                <strong>Weight:</strong>
-                                <br/>
+                                <strong>Weight:</strong><br/>
                                 <span t-field="o.shipping_weight"/>
                                 <span t-field="o.weight_uom_name"/>
                             </div>
@@ -182,7 +181,7 @@
                         All products could not be reserved. Click on the "Check Availability" button to try to reserve products.
                     </p>
                     <p></p>
-                    <p><strong>Value of the merchandise</strong> <strong><span t-field="o.amount_total" /></strong></p>
+                    <p><strong>Value of the merchandise:</strong> <strong><span t-field="o.amount_total" /></strong></p>
                     <p>
                         <strong><p t-field="o.note"/></strong>
                     </p>
