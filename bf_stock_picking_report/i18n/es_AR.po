@@ -20,7 +20,7 @@ msgstr ""
 #. module: bf_stock_picking_report
 #: model:ir.actions.report,print_report_name:bf_stock_picking_report.action_report_delivery_description
 msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
-msgstr "'Vale de entrega - %s - %s' % (object.partner_id.name o '', object.name)"
+msgstr "'Vale de entrega - %s - %s' % (object.partner_id.name or '', object.name)"
 
 #. module: bf_stock_picking_report
 #: model:ir.actions.report,name:bf_stock_picking_report.action_report_delivery_description
