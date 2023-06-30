@@ -183,9 +183,9 @@
                     <p></p>
                     <p><strong>Value of the merchandise:</strong> <strong><span t-field="o.amount_total" /></strong></p>
                     
-                    <div class="footer">
+                    <div style="position:absolute; bottom:-xxpx;" >
                         <strong><p t-field="o.note"/></strong>
-                    </div>                    
+                    </div>          
                 </div>
             </t>                                                  
         </t>
