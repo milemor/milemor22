@@ -33,17 +33,17 @@ msgid "<strong>Product</strong>"
 msgstr "<strong>Producto</strong>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Quantity</strong>"
 msgstr "<strong>Cantidad</strong>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Shipping Date:</strong>"
 msgstr "<strong>Fecha de envío:</strong>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid ""
 "All items couldn't be shipped, the remaining ones will be shipped as soon as"
 " they become available."
@@ -52,31 +52,31 @@ msgstr ""
 "tan pronto como estén disponibles."
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "Lot/Serial Number"
 msgstr "Lote/Nº de serie"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Value of the merchandise</strong>"
 msgstr "<strong>Valor de la Mercadería</strong>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<small>Description</small>"
 msgstr "<small>Descripción</small>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<small>Qty</small>"
 msgstr "<small>Ctd.</small>"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "Packing Operation"
 msgstr "Operación de empaquetado"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "Several product description"
 msgstr "Varias descripciones de producto"

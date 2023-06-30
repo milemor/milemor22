@@ -88,7 +88,7 @@
                                     <strong>Product</strong>
                                 </th>
                                 <th>
-                                    <strong>Status</strong>
+                                    <strong>Quantity</strong>
                                 </th>
                                 <!-- <th name="th_from" t-if="o.picking_type_id.code != 'incoming'" align="left" groups="stock.group_stock_multi_locations">
                                     <strong>Desde</strong>
