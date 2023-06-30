@@ -14,84 +14,29 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,print_report_name:bf_stock_picking_report.action_report_delivery_description
-msgid "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
-msgstr "'Vale de entrega - %s - %s' % (object.partner_id.name or '', object.name)"
-
-#. module: bf_stock_picking_report
 #: model:ir.actions.report,name:bf_stock_picking_report.action_report_delivery_description
 msgid "Delivery Slip (Carrier)"
-msgstr "Vale de entrega (Transportista)"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<span><strong>Customer:</strong></span>"
-msgstr "<span><strong>Cliente:</strong></span>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<span><strong>Delivery Address:</strong></span>"
-msgstr "<span><strong>Dirección de entrega:</strong></span>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<span><strong>Vendor Address:</strong></span>"
-msgstr "<span><strong>Dirección del proveedor:</strong></span>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<span><strong>Warehouse Address:</strong></span>"
-msgstr "<span><strong>Dirección del almacén:</strong></span>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Carrier:</strong><br/>"
-msgstr "<strong>Transportista:</strong>"
+msgstr ""
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Order:</strong>"
-msgstr "<strong>Orden</strong>"
+msgstr ""
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Product</strong>"
-msgstr "<strong>Producto</strong>"
+msgstr ""
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Quantity</strong>"
-msgstr "<strong>Cantidad</strong>"
+msgstr ""
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
 msgid "<strong>Shipping Date:</strong>"
-msgstr "<strong>Fecha de envío:</strong>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Status:</strong>"
-msgstr "<strong>Estado</strong>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Tracking Number:</strong>"
-msgstr "<strong>Nº de Seguimiento:</strong>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Value of the merchandise:</strong>"
-msgstr "<strong>Valor de la mercadería:</strong>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Weight:</strong>"
-msgstr "<strong>Peso:</strong>"
-
-#. module: bf_stock_picking_report
-#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "Barcode"
-msgstr "Código de barra"
+msgstr ""
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
@@ -99,5 +44,33 @@ msgid ""
 "All items couldn't be shipped, the remaining ones will be shipped as soon as"
 " they become available."
 msgstr ""
-"Todos los artículos no pudieron ser enviados, los restantes serán enviados "
-"tan pronto como estén disponibles."
+
+#. module: bf_stock_picking_report
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
+msgid "Lot/Serial Number"
+msgstr ""
+
+#. module: bf_stock_picking_report
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
+msgid "<strong>Value of the merchandise:</strong>"
+msgstr ""
+
+#. module: bf_stock_picking_report
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
+msgid "<small>Description</small>"
+msgstr ""
+
+#. module: bf_stock_picking_report
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
+msgid "<small>Qty</small>"
+msgstr ""
+
+#. module: bf_stock_picking_report
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
+msgid "Packing Operation"
+msgstr ""
+
+#. module: bf_stock_picking_report
+#: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
+msgid "Several product description"
+msgstr ""
