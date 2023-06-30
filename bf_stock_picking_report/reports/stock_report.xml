@@ -6,8 +6,8 @@
             id="action_report_delivery_description"
             model="stock.picking"
             report_type="qweb-pdf"
-            name="bf_stock_picking_report.report_delivery_description"
-            file="bf_stock_picking_report.report_delivery_description"
+            name="bf_stock_picking_report.report_delivery_document_description"
+            file="bf_stock_picking_report.report_delivery_document_description"
             print_report_name="'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
         />
     </data>

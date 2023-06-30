@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Poedit 2.0.6\n"
 
 #. module: bf_stock_picking_report
-#: model:ir.actions.report,name:bf_stock_picking_report.action_report_delivery_description
+#: model:ir.actions.report,name:bf_stock_picking_report.report_delivery_document_description
 msgid "Delivery Slip (Description)"
 msgstr "Vale de entrega (descripción)"
 
