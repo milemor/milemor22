@@ -7,13 +7,13 @@
                 <div class="page">
                     <div class="row">
                         <div class="col-7" name="div_incoming_address">
-                            <div t-if="o.picking_type_id.code=='incoming' and o.partner_id">
+                            <!-- <div t-if="o.picking_type_id.code=='incoming' and o.partner_id">
                                 <span><strong>Vendor Address:</strong></span>
                             </div>
                             <div t-if="o.picking_type_id.code=='internal' and o.partner_id">
                                 <span><strong>Warehouse Address:</strong></span>
-                            </div>
-                            <div t-if="o.picking_type_id.code=='outgoing' and o.partner_id">
+                            </div> -->
+                            <div t-if="o.picking_type_id.code=='outgoing' or 'incoming' and o.partner_id">
                                 <span><strong>Customer:</strong></span>
                             </div>
                             <div t-if="o.partner_id" name="partner_header">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div class="col-5" name="right_box">
-                            <div t-if="o.picking_type_id.code == 'outgoing' and o.carrier_id" class="col-auto">
+                            <div t-if="o.picking_type_id.code == 'outgoing' or 'incoming' and o.carrier_id" class="col-auto">
                                 <strong>Carrier:</strong><br/>
                                 <span t-field="o.carrier_id"/><br/>
                                 <span t-field="o.carrier_id.website_description"/>
