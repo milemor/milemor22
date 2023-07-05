@@ -49,13 +49,13 @@ msgstr "<span><strong>Dirección del almacén:</strong></span>"
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Carrier:</strong>"
-msgstr "<strong>Transportista:</strong>"
+msgid "<strong>Carrier:</strong><br/>"
+msgstr "<strong>Transportista:</strong><br/>"
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
-msgid "<strong>Weight:</strong>"
-msgstr "<strong>Peso:</strong>"
+msgid "<strong>Weight:</strong><br/>"
+msgstr "<strong>Peso:</strong><br/>"
 
 #. module: bf_stock_picking_report
 #: model_terms:ir.ui.view,arch_db:bf_stock_picking_report.report_delivery_document_description
